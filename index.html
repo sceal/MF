@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Balls</title>
+        <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,500,400italic&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/jquery.formstyler.css">
+		<link rel='stylesheet' href='css/normalize.css' type='text/css'>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+	</head>
+	<body>
+
+        <!-- header -->
+        <header class="nav-row">
+            <div class="container row">
+                <div class="col col-3">
+                    <!-- logo -->
+                    <div class="logo">Монгольфьеркин и КО</div>
+                </div>
+                <div class="col col-9">
+                    <!-- main nav -->
+                    <nav class="main-nav">
+                        <a href="#who-we-are" class="main-nav__item main-nav__item--active">Кто мы</a>
+                        <a href="#photo" class="main-nav__item">Фотографии</a>
+                        <a href="#about-fly" class="main-nav__item">План полета</a>
+                        <a href="#order" class="main-nav__item">Заказать</a>
+                        <a href="#team" class="main-nav__item">Команда</a>
+                        <a href="#contacts" class="main-nav__item">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- promo block -->
+        <section class="promo-block">
+            <div class="container">
+                <h1 class="promo-block__title">Организация полетов на воздушных шарах</h1>
+                <a href="#about-fly" class="btn btn--more">Подробнее</a>
+            </div>
+        </section>
+
+        <div class="container">
+
+        <!-- features -->
+        <div class="features row" id="who-we-are">
+            <div class="col col-3">
+                <div class="features-item features-item--like">Современный надежный шар</div>
+            </div>
+            <div class="col col-3">
+                <div class="features-item features-item--glasses">Обучение пилотированию</div>
+            </div>
+            <div class="col col-3">
+                <div class="features-item features-item--photo">Фотосъемка в полете</div>
+            </div>
+            <div class="col col-3">
+                <div class="features-item features-item--bino">Потрясающие виды</div>
+            </div>
+        </div>
+
+        <!-- about -->
+         <section class="about row">
+             <div class="col col-4">
+                 <h2 class="second-title">Вкратце</h2>
+                 <p class="about__text">Более 5 лет воздухоплавательная команда Нева-Аэро выполняет полёты на воздушных шарах для гостей и жителей Петербурга над одними из самых живописных мест России – Царским Селом и Павловском, возведенных в Пушкинском районе Санкт-Петербурга.</p>
+                 <p class="about__text">Мы предлагаем полетать с нами!</p>
+             </div>
+             <div class="col col-8">
+                 <div class="content-video">
+                     <button class="btn btn--play">Воспроизвести</button>
+                 </div>
+             </div>
+         </section>
+         <!-- gallery -->
+         <section class="gallery" id="photo">
+             <h2 class="second-title second-title--center">Галерея</h2>
+
+             <!-- slider -->
+             <div class="slider">
+                 <div class="owl-my">
+                     <div class="slider__item">
+                        <img src="img/gal-1.jpg" alt="">
+                     </div>
+                     <div class="slider__item">
+                        <img src="img/gal-2.jpg" alt="">
+                     </div>
+                     <div class="slider__item">
+                        <img src="img/gal-3.jpg" alt="">
+                     </div>
+                     <div class="slider__item">
+                        <img src="img/gal-4.jpg" alt="">
+                     </div>
+                </div>
+
+             </div>
+         </section>
+
+        </div>
+
+        <!-- about fly -->
+        <section class="about-fly" id="about-fly">
+
+            <div class="container">
+                <h2 class="second-title second-title--center">Как проходят полеты</h2>
+
+                <div class="about-fly__process">
+
+                    <!-- baloon item -->
+                    <div class="baloon baloon--1">
+                        <div class="baloon__title">Взлет</div>
+                        <div class="baloon__image">1</div>
+                    </div>
+
+                    <!-- baloon item -->
+                    <div class="baloon baloon--2">
+                        <div class="baloon__title">Набираем высоту</div>
+                        <div class="baloon__image">2</div>
+                    </div>
+
+                    <!-- baloon item -->
+                    <div class="baloon baloon--3">
+                        <div class="baloon__title">Летаем</div>
+                        <div class="baloon__image">3</div>
+                    </div>
+
+                    <!-- baloon item -->
+                    <div class="baloon baloon--4">
+                        <div class="baloon__title">Снижаемся</div>
+                        <div class="baloon__image">4</div>
+                    </div>
+
+                    <!-- baloon item -->
+                    <div class="baloon baloon--5">
+                        <div class="baloon__title">Садимся</div>
+                        <div class="baloon__image">5</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-fly__bottom">
+                <div class="container row">
+                    <div class="col col-5">До ближайшего полета:</div>
+                    <div class="col col-7">
+                    <!-- counter -->
+                        <div class="counter">
+                            <div id="clock"></div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="container">
+
+        <!-- payment -->
+        <section class="payment row" id="order">
+            <div class="col col-5">
+                <h2 class="second-title">Рассчитать стоимость</h2>
+                <p class="payment__text">Итак, в назначенное время вы приехали на место полета. Команда уже готовит шар к полету - определяется направление ветра, запускаются горелки.</p>
+                <p class="payment__text">Оболочка начинает заполняться теплым воздухом, и аэростат делает первый «вздох». </p>
+                <p class="payment__text">Выбирайте, куда мы полетим сегодня!</p>
+            </div>
+            <div class="col col-6 to-right payment__form">
+                <form action="#">
+                    <div class="row payment__line">
+                        <div class="col col-4">
+                            <label for="t1">Маршрут полета: </label>
+                        </div>
+                        <div class="col col-8">
+                            <select name="" id="t1" class="payment__field">
+                                <option value="#"></option>
+                                <option value="#">Из пункта А в пункт В</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row payment__line">
+                        <div class="col col-4">
+                            <label for="t2">Количество человек:</label>
+                        </div>
+                        <div class="col col-2">
+                            <select name="" id="t2" class="payment__field payment__field--mini">
+                                <option value="#"></option>
+                                <option value="#">1</option>
+                                <option value="#">2</option>
+                            </select>
+                        </div>
+                        <div class="col col-4 text-align">
+                            <label for="t3">Из них дети:</label>
+                        </div>
+                        <div class="col col-2">
+                            <select name="" id="t3" class="payment__field payment__field--mini">
+                                <option value="#"></option>
+                                <option value="#">1</option>
+                                <option value="#">2</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row payment__line">
+                        <div class="col col-4">
+                            <label for="t4">Имя и фамилия:</label>
+                        </div>
+                        <div class="col col-8">
+                            <input type="text" id="t4" class="payment__field payment__field--name" placeholder="Поля Фокус">
+                        </div>
+                    </div>
+                    <div class="row payment__line">
+                        <div class="col col-4">
+                            <label for="t5">Телефон:</label>
+                        </div>
+                        <div class="col col-8">
+                            <input type="text" id="t5" class="payment__field payment__field--phone" placeholder="89215674566">
+                        </div>
+                    </div>
+                    <div class="row payment__line">
+                        <div class="col col-6">
+                            <div class="payment__summary">Стоимость: <span>9000 Р</span></div>
+                        </div>
+                        <div class="col col-6">
+                            <button type="submit" class="btn btn--blue to-right">Полетели!</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="row">
+            <div class="col col-5">
+                <!-- payment method -->
+                <section class="pay-method row">
+                    <h2 class="second-title">Способы оплаты</h2>
+                    <div class="pay-method__item">
+                        <h3 class="third-title">Наличными</h3>
+                        <p class="pay-method__text">Вы можете оплатить услугу,  приехав к нам в офис. Для этого Вам необходимо предупредить об этом:</p>
+                        <p class="pay-method__text">— по телефону: <i>+7 (812) 640-19-39</i><br/>
+                        — или по почте: <i>mnebyvnebo@gmail.com</i></p>
+                        <p class="pay-method__text">Оплачивая услугу в офисе, Вы получаете все документы подтверждающие оплату.</p>
+                    </div>
+                    <div class="pay-method__item">
+                        <h3 class="third-title">Курьеру</h3>
+                        <p class="pay-method__text">Вы можете оплатить услугу в любом районе города и в удобное время, вызвав курьера. Для этого Вам необходимо связаться с нашими сотрудниками и сообщить об этом:</p>
+                        <p class="pay-method__text">— по телефону: <i>+7 (812) 640-19-39</i><br/>
+                        — или по почте: <br/>
+                        <i>mnebyvnebo@gmail.com</i></p>
+                        <p class="pay-method__text">Оплачивая услугу курьером, Вы получаете все документы подтверждающие оплату.</p>
+                    </div>
+                </section>
+            </div>
+            <div class="col col-6 to-right">
+                <!-- faq -->
+                <section class="faq row">
+                    <h2 class="second-title">Частые вопросы</h2>
+                    <div class="faq__item">
+                        <div class="faq__title">Что взять с собой в полет?</div>
+                        <div class="faq__text">Обязательно возьмите с собой теплую одежду и немного вкусной еды, которую не нужно разогревать, а еще термос горячим чаем. А мы обязательно дадим вам теплые пледы</div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__title">Что если мы улетим не в ту сторону?</div>
+                        <div class="faq__text">Каждый шар оснащен датчиками GPS, и все его перемещения фиксируются с точностью до метра, потеряться просто не получится. А наши пилоты такой ситуации не допустят вообще</div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__title">Что делать, если в полете станет плохо?</div>
+                        <div class="faq__text">В наших аптечках заготовлены в больших количествах разные лекарства, в том числе средства от укачивания, пакетики, а каждый пилот прошел специальную подготовку по оказанию первой помощи. В экстренной ситуациях сразу же совершим посадку. Мы не дадим вам оказаться в беде</div>
+                    </div>
+                    <div class="faq__item">
+                        <div class="faq__title">А полет – это действительно так здорово?</div>
+                        <div class="faq__text">Это в тысячу раз лучше шоколада</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        </div>
+
+        <!-- statistic -->
+        <div class="statistic">
+            <div class="container">
+                <div class="statistic-item">
+                    <div class="statistic-item__number"><p>700</p></div>
+                    <div class="statistic-item__title">Полетов<br> в год</div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__number"><p>300</p></div>
+                    <div class="statistic-item__title">Средняя<br> дальность в метрах</div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__number"><p>3</p></div>
+                    <div class="statistic-item__title">Воздушных<br> шара</div>
+                </div>
+                <div class="statistic-item">
+                    <div class="statistic-item__number"><p>12</p></div>
+                    <div class="statistic-item__title">Человек<br> в команде</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <!-- team -->
+            <section class="team" id="team">
+                <h2 class="second-title second-title--center">Команда инструкторов</h2>
+                <div class="row">
+                    <div class="col col-3">
+                        <!-- team item -->
+                        <div class="team-item">
+                            <div class="team-item__img">
+                            <img src="img/team-1.jpg" alt="">
+                            </div>
+                            <div class="team-item__name">Мария Мариева</div>
+                            <div class="team-item__work">Старший пилот</div>
+                        </div>
+                    </div>
+                    <div class="col col-3">
+                        <div class="team-item">
+                            <div class="team-item__img">
+                            <img src="img/team-2.jpg" alt="">
+                            </div>
+                            <div class="team-item__name">Надежда Надеждова</div>
+                            <div class="team-item__work">Второй пилот</div>
+                        </div>
+                    </div>
+                    <div class="col col-3">
+                        <div class="team-item">
+                            <div class="team-item__img">
+                            <img src="img/team-3.jpg" alt="">
+                            </div>
+                            <div class="team-item__name">Ирина Иринова</div>
+                            <div class="team-item__work">Авиадиспетчер</div>
+                        </div>
+                    </div>
+                    <div class="col col-3">
+                        <div class="team-item">
+                            <div class="team-item__img">
+                            <img src="img/team-4.jpg" alt="">
+                            </div>
+                            <div class="team-item__name">Алена Аленова</div>
+                            <div class="team-item__work">Авиатехник</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- feeadback -->
+            <section class="feedback">
+                <h2 class="second-title second-title--center">Отзывы</h2>
+                <div class="row">
+                    <div class="col col-6">
+                        <div class="feedback-item">
+                            <div class="feedback-item__img"><img src="img/feed-1.jpg" alt=""></div>
+                            <div class="feedback-item__name">Ольга Алексеева</div>
+                            <div class="feedback-item__text">
+                                <p>Оооо это было чудесно!!! Я не знала что воздушные шары такие огромные. Забавно, большой шар и маленькая корзинка. Полет восхитительный, выше всяких похвал. Мы побывали в самом красивом месте на Земле - в небе, оттуда открываются потрясающие виды.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="feedback-item">
+                            <div class="feedback-item__img"><img src="img/feed-2.jpg" alt=""></div>
+                            <div class="feedback-item__name">Артем Рыбкин</div>
+                            <div class="feedback-item__text">
+                                <p>Жене подарил полет на воздушном шаре. Сделал сюрприз на день рождения. Жена была в восторге, мне и самому понравилось, очень необычные ощущения от полета, хоть не самолет, а летит быстро, маршрут подобрали красивый. Cпасибо вам, нам все понравилось.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+            </section>
+        </div>
+
+        <!-- contacts -->
+        <div class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts__title">Запишите адрес аэропорта<br>
+                    <span>Всеволожск, улица Аэродромная 19а</span>
+                </div>
+                <div class="row">
+                    <div class="col col-4">
+                        <div class="adress">
+                            <div class="adress__title">Наш офис в Питере:</div>
+                            <div class="adress__text">Литейный 14Б<br>
+                            12:00 - 19:00</div>
+                            <div class="adress__phone">746-67-33</div>
+                        </div>
+                    </div>
+                    <div class="col col-4">
+                        <div class="adress">
+                            <div class="adress__title">Наш офис во Всеволожске:</div>
+                            <div class="adress__text">Аэродромная 19А<br>
+                            12:00 - 19:00</div>
+                            <div class="adress__phone">746-67-33</div>
+                        </div>
+                    </div>
+                    <div class="col col-4">
+                        <a href="" class="email">mnebyvnebo@gmail.com</a>
+                        <div class="social">
+                            <a href="" class="social__item social__item--vk"></a>
+                            <a href="" class="social__item social__item--fb"></a>
+                            <a href="" class="social__item social__item--in"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="nav-row">
+            <div class="container row">
+                <div class="col col-3">
+                    <!-- logo -->
+                    <div class="logo">Монгольфьеркин и КО</div>
+                </div>
+                <div class="col col-9">
+                    <!-- main nav -->
+                    <nav class="main-nav">
+                        <a href="#who-we-are" class="main-nav__item main-nav__item--active">Кто мы</a>
+                        <a href="#photo" class="main-nav__item">Фотографии</a>
+                        <a href="#about-fly" class="main-nav__item">План полета</a>
+                        <a href="#order" class="main-nav__item">Заказать</a>
+                        <a href="#team" class="main-nav__item">Команда</a>
+                        <a href="#contacts" class="main-nav__item">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+
+        
+
+        <script src="js/jquery-1.11.2.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.formstyler.min.js"></script>
+
+        <script type="text/javascript">
+            var nextYear = new Date(new Date().getFullYear() + 1, 0, 0, 0, 0, 0, 0);
+            $('#clock').countdown(nextYear, function(event) {
+            var $this = $(this).html(event.strftime(''
+            + '<span class="timer-digits">%-d</span> <span class="timer-text">дней</span> '
+            + '<span class="timer-digits">%-H</span> <span class="timer-text">часов</span> '
+            + '<span class="timer-digits">%-M</span> <span class="timer-text">минут</span> '
+            + '<span class="timer-digits">%-S</span> <span class="timer-text">секунд</span>'));
+           });
+        </script>
+
+        <script> <!-- Scroll -->
+
+        jQuery(document).ready(function(){
+
+        $('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top 
+            }, 500);
+
+            return false;
+            });
+        });
+
+        $(document).ready(function(){
+          $(".owl-my").owlCarousel({
+            items: 4,
+            pagination: false,
+            loop: true,
+            nav: true
+          });
+        });
+           
+        (function($) {
+        $(function() {
+
+        $('input, select').styler();
+
+        });
+        })(jQuery);          
+        </script>
+
+        
+               
+        
+	</body>
+</html>
