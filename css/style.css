@@ -577,6 +577,7 @@ body{
 .statistic{
 	background-image: url(../img/stat-bg.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 60px 0;
 	background-color: #5b757d;
 	color: #fff;
